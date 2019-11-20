@@ -1,0 +1,158 @@
+
+/*products img in same height*/
+body{
+font-family: 'Oswald', sans-serif;
+}
+.img-fluid{
+	height: 160px;
+}
+.bg-color{
+	background-color: #a9a9a92e;
+}
+/*search box css*/
+
+.searchbox{
+	width: 550px;
+	height: 35px;
+}
+/*cart*/
+
+ /*p#countitem {
+    margin-top: -51px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 20px;
+}*/
+/*show details*/
+
+.button{
+	height: 35px;
+	width: 100px;
+	/*margin: 5px 0px;*/
+
+}
+input[type=button]{
+	width: 95px;
+}
+.product-name {
+    /* margin-top: 100px; */
+    margin: 20px 10px;
+}
+
+/*star rating color*/
+
+.checked{
+	color: orange;
+	margin: 5px 10px;
+	/*display: inline-block;*/
+}
+/*img hover*/
+
+.image img{
+	transition: transform(0.5s);
+}
+.image img:hover{
+	transform: scale(0.9);
+}
+
+#btn {
+	width: 100px;
+	height: 30px; 
+	background-color: #2196f3; 
+	color: white; 
+    margin: 0px 29%;
+	padding: 0px;
+	
+}
+/*remove underline footer*/
+
+.row a{
+	text-decoration: none
+}
+
+/*horizontal line */
+
+.row hr{
+	display: block;
+	margin-bottom: 0.5em;
+	margin-top: 0em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+	border-color: #fff;
+	width: 100%;
+}
+
+
+/* footer section for star rating in footer*/
+
+.star{
+	border: 2px solid orange;
+	border-radius: 30px;
+	
+} 
+.fa-question{
+	border: 1px solid ;
+	border-radius: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+
+}
+.text-white{
+	font-size: 12px;
+	display: block;
+	margin: auto;
+}
+.visa{
+	border: 1px solid white;
+	border: none;
+	padding: 2px;
+	font-size: 13px;
+	font-style: italic;
+	font-weight: bold;
+	background-color: white;
+}
+
+/*another dpage details css*/
+
+.details{
+	font-size: 20px;
+	font-weight: bold;
+}
+.row{
+	background-color: #8080801c;
+}
+p{
+	color: b
+}
+.offer{
+	font-size: 20px;
+}
+/*list offers*/
+.offers{
+	padding: 15px;
+}
+#arrow{
+	position: relative;
+
+}
+i.fa.fa-arrow-circle-up {
+	scroll-behavior: smooth;
+    font-size: 20px;
+    color: darkgray;
+    padding: 20px;
+}
+/*#back_to_top_button:after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5em;
+    line-height: 48px;
+    color: #fff;
+}*/

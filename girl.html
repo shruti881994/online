@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/flipkart.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<style type="text/css">
+  h6#count {
+    margin-top: -49px;
+}
+h6 {
+    margin-bottom: 1rem;
+    margin-left: 36px;
+}
+.clear-cart{
+  margin-top: -30px;
+  margin-left: 5rem;
+}
+</style> 
+  
+</head>
+<body>
+
+  <section id="navigation">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <a class="navbar-brand ml-3 font-weight-bold" href="index.html">Hi-Fashion</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav m-auto justify-content-center">
+
+       <!-- eletronics dropdown -->
+
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Electronics</a>
+        <div class="dropdown-menu" aria-labelledby=
+        "navbarDropdown">
+        <a class="dropdown-item" href="#electronics">Electronics gadgets</a>
+      </div>
+  </li>
+
+  <!-- tv appliances dropdown -->
+
+                <li  class="nav-item dropdown">
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">tv appliances</a>
+                  <div class="dropdown-menu" aria-labelledby=
+        "navbarDropdown">
+        <a class="dropdown-item" href="#tvappliances">Flat Tv</a>
+      </div>
+                </li>
+
+                <!-- mens dropdown -->
+
+        <li  class="nav-item dropdown">
+          <a class="nav-link" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">men</a>
+          <div class="dropdown-menu" aria-labelledby=
+        "navbarDropdown">
+        <a class="dropdown-item" href="#Men">Trousers</a>
+              </div>
+        </li>
+
+        <!-- womens dropdown -->
+
+        <li   class="nav-item dropdown">
+          <a class="nav-link" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">women</a>
+          <div class="dropdown-menu" aria-labelledby=
+        "navbarDropdown">
+        <a class="dropdown-item" href="#women">jeans</a>
+        
+      </div>
+
+        </li>
+
+    
+        <!-- fashion dropdown -->
+
+        <li  class="nav-item dropdown">
+          <a class="nav-link" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fashion</a>
+          <div class="dropdown-menu" aria-labelledby=
+        "navbarDropdown">
+      <a class="dropdown-item" href="#fashion">jewellery</a>
+
+</li>
+<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+
+<ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <img src="image/shopping-cart.png" alt="cart" height="40px" width="30px" style="margin-left: 20px ">
+       <h6 id="count" class="total-count" style="color:black;font-weight:bold;">0</h6>
+       <button class="clear-cart btn btn-outline-light">Clear Cart</button>
+      </li>
+    </ul>
+      
+</div>
+
+</nav>
+</section>
+<!-- navigation bar end -->
+<!-- details section -->
+<div class="container-fluid">
+<div class="row p-5 mt-5">
+  <div class="col-lg-6 col-md-6 col-12">
+ <img src="image/images (22).jpg" class="img-fluid w-75 h-75">
+</div>
+
+  <div class="col-lg-6 col-md-6 col-12">
+  <p class="text-uppercase details">jegin jeans </p>
+  4.4 <i class="fa fa-star checked" style="color:#ffc107; padding: 0; margin: 0"></i>
+  <i class="fa fa-star checked" style="color:#ffc107; padding: 0; margin: 0;"></i>
+  <i class="fa fa-star checked" style="color:#ffc107; padding: 0; margin: 0;"></i>
+  <i class="fa fa-star checked" style="color:#ffc107; padding: 0; margin: 0;"></i>
+  <i class="fa fa-star checked" style="color:#ffc107; padding: 0; margin: 0;"></i>
+  <p class="text-success" >offer price</p>
+  <p><b class="offer"> $9999 </b><del class="text-muted">$15000</del> <b class="text-warning"> 50%off</b> </p>
+  <ul class="offers">
+  <li>40% off on HDFC CArd</li>
+  <li>40% off on Axis bank Card</li>
+  <li>30% off on All debit and credit Cards</li>
+  <li>15 days return policy</li> 
+</ul>
+<button class="add-to-cart btn btn-sm btn-primary" id="button">Add To Cart</button><br><br>
+<a href="buy.html"><input type="button" value="Buy Now" class="btn btn-sm btn-primary"></a></button>
+
+
+  </div>
+</div>
+</div>
+
+
+<!-- footer section -->
+
+<footer class="bg-dark">
+  <div class="container">
+  <div class="row mt-0">
+      
+<div class="col-lg-4 col-md-4 col-12">
+      <h4 class="text-muted pt-5 ml-5">Help</h4>
+      <a href="#" class="text-white text-default ml-5">Payement</a><br>
+      <a href="#" class="text-white text-default ml-5">Shipping</a><br>
+      <a href="#" class="text-white text-default ml-5">Cancellation and returns</a><br>
+      <a href="#" class="text-white text-default ml-5">FAQ</a><br>
+      <a href="#" class="text-white text-default ml-5">Report Infringement</a><br>
+</div>
+
+<div class="col-lg-4 col-md-4 col-12">
+      <h4 class="text-muted pt-5 ml-5">Policy</h4>
+      <a href="#" class="text-white text-default ml-5">Return Policy</a><br>
+      <a href="#" class="text-white text-default ml-5">Terms of Use</a><br>
+      <a href="#" class="text-white text-default ml-5">Security</a><br>
+      <a href="#" class="text-white text-default ml-5">Privacy</a><br>
+      <a href="#" class="text-white text-default ml-5">Sitemap</a>
+      <a href="#" class="text-white text-default ml-5">EPR Compliance</a>
+      <br>
+</div>
+
+<div class="col-lg-4 col-md-4 col-12">
+      <h4 class="text-muted pt-5 ml-5">Social</h4>
+      <a href="#" class="text-white text-default ml-5"> Facebook</a><br>
+      <a href="#" class="text-white text-default ml-5">Twitter</a><br>
+      <a href="#" class="text-white text-default ml-5">Youtube</a><br>
+      <a href="#" class="text-white text-default ml-5">Instagram</a><br>
+      <br>
+    </div>
+    <hr>
+  </div>
+  
+  <div class="row">
+    <div class="col-lg-2 col-md-2 col-12">
+      <i class="fa fa-suitcase text-warning mb-3 ml-5"></i>  <p class="text-white d-inline ml-1">sell on</p>
+  </div>
+
+    <div class="col-lg-2 col-md-2 col-12">
+      <i class="fa fa-star bg-warning star mb-3 ml-5"></i>  <p class="text-white d-inline mt-0 ml-1">Advertise</p>
+  </div>
+  <div class="col-lg-2 col-md-2 col-12">
+      <i class="fa fa-gift text-warning mb-3 ml-5"></i>  <p class="text-white d-inline mt-0 ml-1">gift cards</p>
+  </div>
+  <div class="col-lg-2 col-md-2 col-12">
+      <i class="fa fa-question bg-warning mb-3 ml-5"></i>  <p class="text-white d-inline mt-0 ml-1">Help Center</p>
+  </div>
+  <div class="col-lg-2 col-md-2 col-12 ml-5">
+         <i class="fa fa-cc-paypal bg-warning" aria-hidden="true"></i>
+         <i class="fa fa-credit-card-alt bg-warning" aria-hidden="true"></i>
+         <i class="fa fa-cc-visa bg-warning" aria-hidden="true"></i>
+
+
+  </div>
+</div>
+</div>
+</footer>
+</body>
+</html>
+<script>
+    // ************************************************
+// Shopping Ca// ************************************************
+// Shopping Cart API
+// ************************************************
+
+var shoppingCart = (function() {
+  // =============================
+  // Private methods and propeties
+  // =============================
+  cart = [];
+  
+  // Constructor
+  function Item(name, price, count) {
+    this.name = name;
+    this.price = price;
+    this.count = count;
+  }
+  
+  // Save cart
+  function saveCart() {
+    sessionStorage.setItem('shoppingCart', JSON.stringify(cart));
+  }
+  
+    // Load cart
+  function loadCart() {
+    cart = JSON.parse(sessionStorage.getItem('shoppingCart'));
+  }
+  if (sessionStorage.getItem("shoppingCart") != null) {
+    loadCart();
+  }
+  
+
+  // =============================
+  // Public methods and propeties
+  // =============================
+  var obj = {};
+  
+  // Add to cart
+  obj.addItemToCart = function(name, price, count) {
+    for(var item in cart) {
+      if(cart[item].name === name) {
+        cart[item].count ++;
+        saveCart();
+        return;
+      }
+    }
+    var item = new Item(name, price, count);
+    cart.push(item);
+    saveCart();
+  }
+  // Set count from item
+  obj.setCountForItem = function(name, count) {
+    for(var i in cart) {
+      if (cart[i].name === name) {
+        cart[i].count = count;
+        break;
+      }
+    }
+  };
+  // Remove item from cart
+  obj.removeItemFromCart = function(name) {
+      for(var item in cart) {
+        if(cart[item].name === name) {
+          cart[item].count --;
+          if(cart[item].count === 0) {
+            cart.splice(item, 1);
+          }
+          break;
+        }
+    }
+    saveCart();
+  }
+
+  // Remove all items from cart
+  obj.removeItemFromCartAll = function(name) {
+    for(var item in cart) {
+      if(cart[item].name === name) {
+        cart.splice(item, 1);
+        break;
+      }
+    }
+    saveCart();
+  }
+
+  // Clear cart
+  obj.clearCart = function() {
+    cart = [];
+    saveCart();
+  }
+
+  // Count cart 
+  obj.totalCount = function() {
+    var totalCount = 0;
+    for(var item in cart) {
+      totalCount += cart[item].count;
+    }
+    return totalCount;
+  }
+
+  // Total cart
+  obj.totalCart = function() {
+    var totalCart = 0;
+    for(var item in cart) {
+      totalCart += cart[item].price * cart[item].count;
+    }
+    return Number(totalCart.toFixed(2));
+  }
+
+  // List cart
+  obj.listCart = function() {
+    var cartCopy = [];
+    for(i in cart) {
+      item = cart[i];
+      itemCopy = {};
+      for(p in item) {
+        itemCopy[p] = item[p];
+
+      }
+      itemCopy.total = Number(item.price * item.count).toFixed(2);
+      cartCopy.push(itemCopy)
+    }
+    return cartCopy;
+  }
+
+  // cart : Array
+  // Item : Object/Class
+  // addItemToCart : Function
+  // removeItemFromCart : Function
+  // removeItemFromCartAll : Function
+  // clearCart : Function
+  // countCart : Function
+  // totalCart : Function
+  // listCart : Function
+  // saveCart : Function
+  // loadCart : Function
+  return obj;
+})();
+
+
+// *****************************************
+// Triggers / Events
+// ***************************************** 
+// Add item
+$('.add-to-cart').click(function(event) {
+  event.preventDefault();
+  var name = $(this).data('name');
+  var price = Number($(this).data('price'));
+  shoppingCart.addItemToCart(name, price, 1);
+  displayCart();
+});
+
+// Clear items
+$('.clear-cart').click(function() {
+  shoppingCart.clearCart();
+  displayCart();
+});
+
+
+function displayCart() {
+  var cartArray = shoppingCart.listCart();
+  var output = "";
+  for(var i in cartArray) {
+    output += "<tr>"
+      + "<td>" + cartArray[i].name + "</td>" 
+      + "<td>(" + cartArray[i].price + ")</td>"
+      + "<td><div class='input-group'><button class='minus-item input-group-addon btn btn-primary' data-name=" + cartArray[i].name + ">-</button>"
+      + "<input type='number' class='item-count form-control' data-name='" + cartArray[i].name + "' value='" + cartArray[i].count + "'>"
+      + "<button class='plus-item btn btn-primary input-group-addon' data-name=" + cartArray[i].name + ">+</button></div></td>"
+      + "<td><button class='delete-item btn btn-danger' data-name=" + cartArray[i].name + ">X</button></td>"
+      + " = " 
+      + "<td>" + cartArray[i].total + "</td>" 
+      +  "</tr>";
+  }
+  $('.show-cart').html(output);
+  $('.total-cart').html(shoppingCart.totalCart());
+  $('.total-count').html(shoppingCart.totalCount());
+}
+
+// Delete item button
+
+$('.show-cart').on("click", ".delete-item", function(event) {
+  var name = $(this).data('name')
+  shoppingCart.removeItemFromCartAll(name);
+  displayCart();
+})
+
+
+// -1
+$('.show-cart').on("click", ".minus-item", function(event) {
+  var name = $(this).data('name')
+  shoppingCart.removeItemFromCart(name);
+  displayCart();
+})
+// +1
+$('.show-cart').on("click", ".plus-item", function(event) {sh
+  var name = $(this).data('name')
+  shoppingCart.addItemToCart(name);
+  displayCart();
+})
+
+// Item count input
+$('.show-cart').on("change", ".item-count", function(event) {
+   var name = $(this).data('name');
+   var count = Number($(this).val());
+  shoppingCart.setCountForItem(name, count);
+  displayCart();
+});
+
+displayCart();
+
+   </script>
